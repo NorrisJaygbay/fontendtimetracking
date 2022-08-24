@@ -1,0 +1,328 @@
+body{
+    background: hsl(226, 43%, 10%);
+  }
+  .main{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    gap: 15px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: sans-serif;
+  }
+  .control{
+    display: flex;
+    width: 50%;
+    gap: 20px;
+}
+.control2{
+  display: flex;
+  width: 50%;
+  gap: 15px;
+}
+  .main1{
+    width: 50%;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0 10px;
+    position: relative;
+    height: 500px;
+  }
+  #boyimage{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 98%);
+  }
+  .main11{
+    background: hsl(246, 80%, 60%);
+    width: 82%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: absolute;
+  }
+  .main111{
+    width: 90%;
+    height: 200px;
+    background: hsl(235, 46%, 20%);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    padding:10px;
+    border-radius: 15px;
+  }
+  /* main2 */
+  .main2{
+    width: 50%;
+    overflow: hidden;
+    height: 500px;
+  }
+  .main22{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: -30px;
+    padding: 0 10px;
+  }
+  .main2color1{
+    width: 100%;
+    height: 60px;
+    background-image: url("work.svg");
+    background-size: 50px 50px;
+    background-position: top right 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    top: 0;
+    left: 0;
+    background-color: hsl(15, 100%, 70%);
+  }
+  .main2color2{
+    width: 100%;
+    height: 60px;
+    background-image: url("icon-exercise.svg");
+    background-size: 50px 50px;
+    background-position: top right 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    top: 0;
+    left: 0;
+    background-color: hsl(145, 58%, 55%);
+  }
+  .main2color3{
+    width: 100%;
+    height: 60px;
+    background-image: url("icon-play.svg");
+    background-size: 50px 50px;
+    background-position: top right 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    top: 0;
+    left: 0;
+    background-color: hsl(195, 74%, 62%);
+  }
+  .main2color4{
+    width: 100%;
+    height: 60px;
+    background-image: url("icon-social.svg");
+    background-size: 50px 50px;
+    background-position: top right 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    top: 0;
+    left: 0;
+    background-color: hsl(264, 64%, 52%);
+  }
+  .main2color5{
+    width: 100%;
+    height: 60px;
+    background-image: url("icon-study.svg");
+    background-size: 50px 50px;
+    background-position: top right 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    top: 0;
+    left: 0;
+    background-color: hsl(348, 100%, 68%);
+  }
+  .main2color6{
+    width: 100%;
+    height: 60px;
+    background-image: url("icon-self-care.svg");
+    background-size: 50px 50px;
+    background-position: top right 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    top: 0;
+    left: 0;
+    background-color: hsl(43, 84%, 65%);
+  }
+  #image1{
+    width: 25px;
+    height: 5px;
+  }
+  .main24{
+    width: 97%;
+    height: 240px;
+    position: relative;
+  }
+  .main244{
+    width: 97%;
+    height: 240px;
+    position: relative;
+    bottom: -20px;
+  }
+  .main21, .main211{
+    background: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  #p1{
+    margin-top: 30px;
+    color: rgba(255,255,255,.4);
+  }
+  #p2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: -15px;
+    color: rgba(255,255,255,.8);
+  }
+  #p3{
+    padding-left: 10px;
+    color: rgba(255,255,255,.4);
+
+  }
+  .p3{
+    padding-top: 60px;
+  }
+  #p4{
+    padding-left: 10px;
+    color: rgba(255,255,255,.8);
+
+  }
+  #p5{
+    padding-left: 10px;
+    color: rgba(255,255,255,.4);
+
+  }
+  #p6{
+      color: rgba(255,255,255,.8);
+  }
+  #p7{
+      font-size: 2rem;
+      color: rgba(255,255,255,.8);
+      padding-left: 10px;
+      margin-bottom: -5px;
+  }
+  #p8{
+    color: rgba(255,255,255,.4);
+    padding-left: 10px;
+  }
+
+#circle{
+    display: flex;
+    gap: 3px;
+}
+#cir{
+    width: 4px; 
+    height: 4px;
+    background: whitesmoke;
+    border-radius: 50%;
+}
+@media all and (max-width:1000px){
+  .main{
+    width: 90%;
+  }
+}
+@media all and (max-width:900px){
+  .main{
+    width: 95%;
+  }
+}
+@media all and (max-width:800px){
+  .main{
+    flex-direction: column;
+  }
+  .main1{
+    width: 47%;
+  }
+  .control{
+    width: 80%;
+    margin: auto;
+    gap: 15px;
+  }
+  .control2{
+    width: 80%;
+    margin: auto;
+  }
+}
+@media all and (max-width:700px){
+  .control, .control2{
+    width: 90%;
+  }
+}
+@media all and (max-width:600px){
+  .control, .control2{
+    width: 95%;
+  }
+}
+@media all and (max-width:500px){
+  .control, .control2{
+    flex-direction: column;
+  }
+  .main11{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+  }
+  #boyimage{
+    margin-right: 20px;
+  }
+  .main111{
+    width: 90%;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .main222, .main26{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 30px;
+  }
+  .main22{
+    padding: 0 20px;
+  }
+  #p3{
+    padding-left: 0;
+  }
+  .p3{
+    padding-top: 0;
+  }
+  #p4{
+    padding-left: 0;
+  }
+  #p5{
+    padding-left: 0x;
+  }
+  #p7{
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .main24, .main244{
+    margin: auto;
+  }
+  .main1{
+    width: 95%;
+    height: 340px;
+  }
+  .main2{
+    width: 100%;
+  }
+}
